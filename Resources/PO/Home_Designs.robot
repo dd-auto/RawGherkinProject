@@ -3,7 +3,7 @@ Documentation  A
 Library  SeleniumLibrary
 
 *** Variables ***
-${home_design_url} =  https://www.rawsonhomes.com.au/home-designs#/1
+${home_design_url} =  https://www.rawsonhomes.com.au/home-designs#/
 ${home_design_single_storey_icon} =  xpath=//span[@data-use='#sprite-icon-house-single']
 
 *** Keywords ***
