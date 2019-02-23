@@ -24,7 +24,7 @@ Scenario: As a user, I can access the Home Design page
     Then user is redirected to the Home Design page
 
 Scenario: As a user, I can access the Home + Land Packages page
-    [Tags]
+    [Tags]  CurrentTC
     Given a user can access the Homepage
     When User clicks top navigation menu for Home + Land package
     Then User is redirected to the Home + Land Package page
