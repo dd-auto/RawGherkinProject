@@ -8,6 +8,7 @@ ${home_design_single_storey_icon} =  xpath=//span[@data-use='#sprite-icon-house-
 
 *** Keywords ***
 Verify Home Design page
+    sleep  2s
     run keyword and continue on failure  location should contain  ${home_design_url}
     page should contain element  ${home_design_single_storey_icon}
     capture page screenshot
